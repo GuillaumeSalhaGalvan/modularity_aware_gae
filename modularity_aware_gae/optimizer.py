@@ -18,6 +18,15 @@ This second version is accessible by setting FLAGS.simple as True. While being
 mathematically different from the original modularity, we observed few to no
 significant changes in LP/CD results when testing it on several of our graphs.
 The FastGAE method for scalable GAE/VGAE leverages this simple version by default.
+
+3 - After releasing this paper, we noticed a discrepancy in the code w.r.t. the paper.
+While one should normalize the modularity-inspired terms by (1/2*num_edges) as in equations
+(18) and (19) of the paper, this code instead normalizes them by (1/num_nodes).
+We chose to keep this discrepancy in the source code, to ensure that the optimal beta
+hyperparameters correspond to those reported in Table 4 from the paper.
+Note: normalizing by (1/2*num_edges) instead would not impact the paper's conclusions.
+One would simply have to re-scale beta hyperparameters by a (num_nodes/2*num_edges)
+factor to retrieve the optimal models from the paper.
 """
 
 
