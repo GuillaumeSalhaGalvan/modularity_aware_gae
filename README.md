@@ -68,7 +68,10 @@ Please cite our paper if you use this code in your own work:
 @article{salhagalvan2022modularity,
   title={Modularity-Aware Graph Autoencoders for Joint Community Detection and Link Prediction},
   author={Salha-Galvan, Guillaume and Lutzeyer, Johannes F and Dasoulas, George and Hennequin, Romain and Vazirgiannis, Michalis},
-  journal={arXiv preprint arXiv:2202.00961},
-  year={2022}
+  journal={Neural Networks},
+  volume={153},
+  pages={474--495},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
