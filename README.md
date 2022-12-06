@@ -7,7 +7,7 @@ This repository provides a Tensorflow implementation of the four models:
 * Modularity-aware variational graph autoencoder with 2-layer GCN encoder;
 
 introduced in the article [Modularity-Aware Graph Autoencoders for Joint Community Detection and Link Prediction](https://arxiv.org/pdf/2202.00961.pdf).
-This article has been accepted for publication in Elsevier's [Neural Networks](https://www.journals.elsevier.com/neural-networks) journal in 2022. It will also be presented at the [NeurIPS 2022 Workshop on New Frontiers in Graph Learning (GLFrontiers)](https://glfrontiers.github.io/) in New Orleans.
+This article has been accepted for publication in Elsevier's [Neural Networks](https://www.journals.elsevier.com/neural-networks) journal in 2022. It has also been presented at the [NeurIPS 2022 Workshop on New Frontiers in Graph Learning (GLFrontiers)](https://glfrontiers.github.io/) in New Orleans.
 
 We provide the Blogs, Cora, Cora-Large, Citeseer, Pubmed, and SBM datasets in the `data` folder. 
 The seventh dataset from our experiments, i.e., Deezer-Album, is a private dataset that we do not release in this repository.
